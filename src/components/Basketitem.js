@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { shopContext } from "../reducer";
 
-export default function (props) {
+export default function Basketitem (props) {
   const { id, name, price, quantity } = props;
   const { incrementQuantity, decrementQuantity, removeFromBasket } =
     useContext(shopContext);
